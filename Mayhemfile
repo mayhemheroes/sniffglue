@@ -1,5 +1,5 @@
 project: sniffglue
-target: read_packet
+target: read-packet
 duration: 90
 
 cmds:
