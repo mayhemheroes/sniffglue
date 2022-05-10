@@ -13,6 +13,7 @@ RUN ~/.cargo/bin/cargo install cargo-fuzz
 ADD . /sniffglue/
 
 WORKDIR /sniffglue/fuzz/
+RUN ls
 RUN ~/.cargo/bin/cargo fuzz build
 
 FROM --platform=linux/amd64 ubuntu:22.04
