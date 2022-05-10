@@ -1,5 +1,5 @@
 target
-fuzz
+fuzz/target
 Dockerfile
 .dockerignore
 .git
